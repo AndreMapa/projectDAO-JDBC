@@ -54,6 +54,10 @@ public class Seller implements Serializable{
 		this.id = id;
 	}
 
+	public void setName(String name) {
+		this.name = name;
+	}
+
 	@Override
 	public int hashCode() {
 		return Objects.hash(id);
